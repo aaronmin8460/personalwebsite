@@ -25,7 +25,7 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          Hi, I'm Aaron{' '}
+          Hi, I&apos;m Aaron{' '}
           <motion.span
             animate={{ rotate: [0, 20, -10, 20, -5, 0] }}
             transition={{ duration: 1.2, repeat: Infinity, repeatDelay: 1.5 }}
@@ -41,8 +41,8 @@ export default function Home() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.4, duration: 1 }}
         >
-          I'm an undergraduate student at Purdue University studying Computer and Information Technology.
-          I'm passionate about AI, robotics, and building systems that improve people's lives.
+          I&apos;m an undergraduate student at Purdue University studying Computer and Information Technology.
+          I&apos;m passionate about AI, robotics, and building systems that improve people&apos;s lives.
         </motion.p>
 
         <motion.p
@@ -51,7 +51,7 @@ export default function Home() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8, duration: 1 }}
         >
-          I’ve developed full-stack apps, conducted research in robotics, and worked on Raspberry Pi IoT projects.
+          I&apos;ve developed full-stack apps, conducted research in robotics, and worked on Raspberry Pi IoT projects.
           I love learning new technologies and applying them to real-world problems.
         </motion.p>
       </div>
