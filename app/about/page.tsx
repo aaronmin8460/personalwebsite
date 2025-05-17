@@ -11,7 +11,8 @@ export default function AboutPage() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        Hi, I'm Byeongil Min 👋
+        Hi, I&apos;m Byeongil Min 👋
+
       </motion.h1>
 
       <motion.p
