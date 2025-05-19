@@ -2,7 +2,6 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { Bangers } from 'next/font/google';
-import { FaHome } from "react-icons/fa";
 
 const bangers = Bangers({ weight: "400", subsets: ["latin"] });
 
