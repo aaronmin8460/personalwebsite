@@ -49,12 +49,12 @@ export default function TwoSome() {
       </div>
     <h2 className="pl-5 pr-5 w-auto text-xl font-bold">Code in C</h2>
       <div className="pl-5 pr-5">
-      <SyntaxHighlighter language="text" style={atomDark}>
+      <SyntaxHighlighter language="c" style={atomDark}>
         {Code}
       </SyntaxHighlighter>
       </div>
       <h2 className="pl-5 pr-5 text-xl font-bold">Time Complexity: O<sup>2</sup></h2>
-      <h2 className="pl-5 pr-5 text-xl font-bold">Space Complexity: O(1)</h2>
+      <h2 className="pl-5 pr-5 mb-5 text-xl font-bold">Space Complexity: O(1)</h2>
     </div>
   );
 }

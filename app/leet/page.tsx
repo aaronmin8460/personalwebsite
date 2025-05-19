@@ -6,7 +6,7 @@ import AnimatedList from './AnimatedList';
 
 const items = [
     "two-sum",
-    "reverse-linked-list",
+    "Add-Two-Numbers",
     "valid-parentheses",
     "merge-intervals",
 ];
