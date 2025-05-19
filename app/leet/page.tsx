@@ -16,7 +16,7 @@ const Leet = () => {
 
 const handleSelect = (item: string, index: number) => {
   console.log(`Selected item: ${item} at index ${index}`);
-  router.push(`/blogpost/${item}`); 
+  router.push(`/leetpost/${item}`); 
 };
 
 
