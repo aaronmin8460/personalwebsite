@@ -12,7 +12,7 @@ const items = [
 const Leet = () => {
   const router = useRouter();
 
-  const handleSelect = (item: string, index: number) => {
+  const handleSelect = (item: string, _index: number) => {
     console.log("Selected item:", item);
     router.push(`/blogpost/${item}`); 
   };

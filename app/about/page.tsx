@@ -12,7 +12,6 @@ export default function AboutPage() {
         transition={{ duration: 0.6 }}
       >
         Hi, I&apos;m Byeongil Min 👋
-
       </motion.h1>
 
       <motion.p
@@ -21,8 +20,8 @@ export default function AboutPage() {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.4, duration: 0.6 }}
       >
-        I'm an undergraduate student at Purdue University studying Computer and Information Technology.
-        I'm passionate about AI, robotics, and building systems that improve people's lives.
+        I&apos;m an undergraduate student at Purdue University studying Computer and Information Technology.
+        I&apos;m passionate about AI, robotics, and building systems that improve people&apos;s lives.
       </motion.p>
 
       <motion.p
@@ -31,7 +30,7 @@ export default function AboutPage() {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.8, duration: 0.6 }}
       >
-        I’ve developed full-stack apps, conducted research in robotics, and worked on Raspberry Pi IoT projects.
+        I&apos;ve developed full-stack apps, conducted research in robotics, and worked on Raspberry Pi IoT projects.
         I love learning new technologies and applying them to real-world problems.
       </motion.p>
     </div>
