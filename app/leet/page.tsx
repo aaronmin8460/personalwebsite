@@ -14,10 +14,11 @@ const items = [
 const Leet = () => {
   const router = useRouter();
 
-  const handleSelect = (item: string, _index: number) => {
-    console.log("Selected item:", item);
-    router.push(`/leetpost/${item}`);
-  };
+const handleSelect = (item: string, index: number) => {
+  console.log(`Selected item: ${item} at index ${index}`);
+  router.push(`/blogpost/${item}`); 
+};
+
 
   return (
     <div className="relative h-screen overflow-hidden bg-black text-white">

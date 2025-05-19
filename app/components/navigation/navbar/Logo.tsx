@@ -1,7 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import Button from "./Button";
 import { Bangers } from 'next/font/google';
 import { FaHome } from "react-icons/fa";
 
@@ -56,9 +55,6 @@ const Logo = () => {
         </div>
       </Link>
 
-      <div style={{ display: showButton ? "block" : "none" }}>
-        <Button />
-      </div>
     </>
   );
 };
