@@ -16,7 +16,7 @@ export default function TwoSome() {
 
   return (
     <div className="p-8 text-white bg-black h-screen overflow-y-auto">
-      <h1 className="text-2xl font-bold text-center">LeetCode Post: Two Some</h1>
+      <h1 className="p-5 text-2xl font-bold text-center">LeetCode Post: Two Some</h1>
       <h2 className="p-5 text-xl font-bold">Problem Statement</h2>
       <div className="pl-5 pr-5 ">
       <Image
@@ -26,6 +26,7 @@ export default function TwoSome() {
       alt="two-sum"
     />
     </div>
+    <h2 className="p-5 text-xl font-bold">Approach</h2>
     <h2 className="pl-5 pr-5 w-auto text-xl font-bold">Pseudocode</h2>
     <div className="pl-5 pr-5">
       <SyntaxHighlighter language="text" style={atomDark}>

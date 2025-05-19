@@ -46,12 +46,6 @@ const Logo = () => {
             Aaron
           </p>
 
-            <FaHome
-            style={{
-              fontSize: width > 768 ? "32px" : "20px",
-              color: "#fff",
-            }}
-          />
         </div>
       </Link>
 

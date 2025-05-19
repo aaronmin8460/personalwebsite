@@ -42,6 +42,7 @@ const Sidebar = ({
     <ul className="sidebar-nav text-center leading-relaxed text-xl">
       <li><Link href="/about" onClick={toggle}>About Me</Link></li>
       <li><Link href="/blog" onClick={toggle}>Post</Link></li>
+      <li><Link href="/leet" onClick={toggle}>Leet Code</Link></li>
       <li><Link href="/contacts" onClick={toggle}>Contacts</Link></li>
     </ul>
   </div>
