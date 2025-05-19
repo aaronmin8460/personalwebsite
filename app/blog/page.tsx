@@ -9,7 +9,7 @@ const items = [
     "data-structures",
 ];
 
-const Leet = () => {
+const Blog = () => {
   const router = useRouter();
 
   const handleSelect = (item: string, _index: number) => {
@@ -33,4 +33,4 @@ const Leet = () => {
   );
 };
 
-export default Leet;
+export default Blog;
