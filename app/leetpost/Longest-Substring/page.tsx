@@ -86,6 +86,111 @@ export default function AddTwoNumber() {
       <div className="p-8">
         <h1 className="text-2xl font-bold mb-4">Step-by-Step Explanation</h1>
         <h2 className="text-xl font-bold mb-2">Example: &quot;abcabcbb&quot;</h2>
+        <table className="min-w-full border border-gray-300">
+        <thead>
+          <tr className="bg-gray-500">
+            <th className="border border-gray-300 px-4 py-2">Step</th>
+            <th className="border border-gray-300 px-4 py-2">Right</th>
+            <th className="border border-gray-300 px-4 py-2">Char</th>
+            <th className="border border-gray-300 px-4 py-2">CharMap[c]</th>
+            <th className="border border-gray-300 px-4 py-2">Condition (charMap[c] &gt;= left)</th>
+            <th className="border border-gray-300 px-4 py-2">Update left</th>
+            <th className="border border-gray-300 px-4 py-2">Current Window</th>
+            <th className="border border-gray-300 px-4 py-2">Length</th>
+            <th className="border border-gray-300 px-4 py-2">maxLength Updated</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td className="border border-gray-300 px-4 py-2">1</td>
+            <td className="border border-gray-300 px-4 py-2">0</td>
+            <td className="border border-gray-300 px-4 py-2">a</td>
+            <td className="border border-gray-300 px-4 py-2">-1</td>
+            <td className="border border-gray-300 px-4 py-2">No</td>
+            <td className="border border-gray-300 px-4 py-2">Left = 0</td>
+            <td className="border border-gray-300 px-4 py-2">a</td>
+            <td className="border border-gray-300 px-4 py-2">1</td>
+            <td className="border border-gray-300 px-4 py-2">1</td>
+          </tr>
+          <tr>
+            <td className="border border-gray-300 px-4 py-2">2</td>
+            <td className="border border-gray-300 px-4 py-2">1</td>
+            <td className="border border-gray-300 px-4 py-2">b</td>
+            <td className="border border-gray-300 px-4 py-2">-1</td>
+            <td className="border border-gray-300 px-4 py-2">No</td>
+            <td className="border border-gray-300 px-4 py-2">Left = 0</td>
+            <td className="border border-gray-300 px-4 py-2">ab</td>
+            <td className="border border-gray-300 px-4 py-2">2</td>
+            <td className="border border-gray-300 px-4 py-2">2</td>
+          </tr>
+          <tr>
+            <td className="border border-gray-300 px-4 py-2">3</td>
+            <td className="border border-gray-300 px-4 py-2">2</td>
+            <td className="border border-gray-300 px-4 py-2">c</td>
+            <td className="border border-gray-300 px-4 py-2">-1</td>
+            <td className="border border-gray-300 px-4 py-2">No</td>
+            <td className="border border-gray-300 px-4 py-2">Left = 0</td>
+            <td className="border border-gray-300 px-4 py-2">abc</td>
+            <td className="border border-gray-300 px-4 py-2">3</td>
+            <td className="border border-gray-300 px-4 py-2">3</td>
+          </tr>
+          <tr>
+            <td className="border border-gray-300 px-4 py-2">4</td>
+            <td className="border border-gray-300 px-4 py-2">3</td>
+            <td className="border border-gray-300 px-4 py-2">a</td>
+            <td className="border border-gray-300 px-4 py-2">0</td>
+            <td className="border border-gray-300 px-4 py-2">yes</td>
+            <td className="border border-gray-300 px-4 py-2">Left = 1</td>
+            <td className="border border-gray-300 px-4 py-2">bca</td>
+            <td className="border border-gray-300 px-4 py-2">3</td>
+            <td className="border border-gray-300 px-4 py-2">No change</td>
+          </tr>
+          <tr>
+            <td className="border border-gray-300 px-4 py-2">5</td>
+            <td className="border border-gray-300 px-4 py-2">4</td>
+            <td className="border border-gray-300 px-4 py-2">b</td>
+            <td className="border border-gray-300 px-4 py-2">1</td>
+            <td className="border border-gray-300 px-4 py-2">yes</td>
+            <td className="border border-gray-300 px-4 py-2">Left = 2</td>
+            <td className="border border-gray-300 px-4 py-2">cab</td>
+            <td className="border border-gray-300 px-4 py-2">3</td>
+            <td className="border border-gray-300 px-4 py-2">No change</td>
+          </tr>
+          <tr>
+            <td className="border border-gray-300 px-4 py-2">6</td>
+            <td className="border border-gray-300 px-4 py-2">5</td>
+            <td className="border border-gray-300 px-4 py-2">c</td>
+            <td className="border border-gray-300 px-4 py-2">2</td>
+            <td className="border border-gray-300 px-4 py-2">yes</td>
+            <td className="border border-gray-300 px-4 py-2">Left = 3</td>
+            <td className="border border-gray-300 px-4 py-2">abc</td>
+            <td className="border border-gray-300 px-4 py-2">3</td>
+            <td className="border border-gray-300 px-4 py-2">No change</td>
+          </tr>
+          <tr>
+            <td className="border border-gray-300 px-4 py-2">7</td>
+            <td className="border border-gray-300 px-4 py-2">6</td>
+            <td className="border border-gray-300 px-4 py-2">b</td>
+            <td className="border border-gray-300 px-4 py-2">4</td>
+            <td className="border border-gray-300 px-4 py-2">yes</td>
+            <td className="border border-gray-300 px-4 py-2">Left = 5</td>
+            <td className="border border-gray-300 px-4 py-2">cb</td>
+            <td className="border border-gray-300 px-4 py-2">2</td>
+            <td className="border border-gray-300 px-4 py-2">No change</td>
+          </tr>
+          <tr>
+            <td className="border border-gray-300 px-4 py-2">8</td>
+            <td className="border border-gray-300 px-4 py-2">7</td>
+            <td className="border border-gray-300 px-4 py-2">b</td>
+            <td className="border border-gray-300 px-4 py-2">6</td>
+            <td className="border border-gray-300 px-4 py-2">yes</td>
+            <td className="border border-gray-300 px-4 py-2">Left = 7</td>
+            <td className="border border-gray-300 px-4 py-2">b</td>
+            <td className="border border-gray-300 px-4 py-2">1</td>
+            <td className="border border-gray-300 px-4 py-2">No change</td>
+          </tr>
+        </tbody>
+      </table>
       </div>
 
       <h2 className="pl-5 pr-5 text-xl font-bold">Time Complexity: O(n)</h2>
