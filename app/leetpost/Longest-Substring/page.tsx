@@ -70,7 +70,7 @@ export default function AddTwoNumber() {
       </div>
         <h2 className="pl-5 pr-5 text-xl font-bold">Explanation</h2>
         <p className="pl-5 pr-5 text-l font-bold">What is charMap[256] for </p>
-        <p className = "pl-5 pr-5">It's an array that can hold 256 elements, which covers all possible ASCII characters (0–255)</p>
+        <p className = "pl-5 pr-5">It is an array that can hold 256 elements, which covers all possible ASCII characters (0–255)</p>
         <p className = "pl-5 pr-5">It acts like a hash map, where the index represents the ASCII value of a character.</p>
             <div className="p-8">
       <h1 className="text-2xl font-bold mb-4">Step-by-Step explanation</h1>
@@ -82,7 +82,7 @@ export default function AddTwoNumber() {
             <th className="border border-gray-300 px-4 py-2">Right</th>
             <th className="border border-gray-300 px-4 py-2">Char</th>
             <th className="border border-gray-300 px-4 py-2">CharMap[c]</th>
-            <th className="border border-gray-300 px-4 py-2">Condition (charMap[c] {'>'}= left)</th>
+            <th className="border border-gray-300 px-4 py-2">Condition (charMap[c] &gt;= left)</th>
             <th className="border border-gray-300 px-4 py-2">Update left</th>
             <th className="border border-gray-300 px-4 py-2">Current Window</th>
             <th className="border border-gray-300 px-4 py-2">Length</th>
