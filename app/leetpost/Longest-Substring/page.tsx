@@ -83,7 +83,7 @@ export default function AddTwoNumber() {
         It acts like a hash map, where the index represents the ASCII value of a character.
       </p>
 
-      <div className="p-8">
+      <div className="p-8 overflow-x-auto">
         <h1 className="text-2xl font-bold mb-4">Step-by-Step Explanation</h1>
         <h2 className="text-xl font-bold mb-2">Example: &quot;abcabcbb&quot;</h2>
         <table className="min-w-full border border-gray-300">
