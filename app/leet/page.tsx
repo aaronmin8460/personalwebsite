@@ -7,7 +7,7 @@ import AnimatedList from './AnimatedList';
 const items = [
     "two-sum",
     "Add-Two-Numbers",
-    "valid-parentheses",
+    "Longest-Substring",
     "merge-intervals",
 ];
 
